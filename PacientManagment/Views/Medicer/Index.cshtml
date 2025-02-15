@@ -1,0 +1,53 @@
+﻿@using PacientManagment.Core.Application.ViewModels.Medicer
+@model List<MedicerViewModel>
+<h2>Medicers List</h2>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-6">
+            @*pending fix search bar*@
+            <form asp-controller="Medicer" asp-action="Search" method="post" class="d-flex">
+                <input name="Name" class="form-control me-2" type="search" placeholder="Search by Name..." aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <a asp-controller="Medicer" asp-action="Create" class="btn btn-success">Create Medicer</a>
+    </div>
+
+    @if(Model.Count == 0 || Model == null)
+    {
+        <h1>There is not Medics</h1>
+    }
+    else 
+    {
+        <div class="row">
+            @foreach (MedicerViewModel medicer in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="@medicer.ImgPath" class="card-img-top" alt="User Image">
+                        <div class="card-body">
+                            <h5 class="card-title">@medicer.Name @medicer.LastName</h5>
+                            <p class="card-text">
+                                <strong>Email:</strong> @medicer.Email <br>
+                                <strong>Phone:</strong> @medicer.Phone <br>
+                                <strong>Cedula</strong> @medicer.Cedula
+                            </p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <a href="@Url.Action("Edit", "Medicer", new { id = medicer.Id })" class="btn btn-warning">Edit</a>
+                            <a href="@Url.Action("Delete", "Medicer", new { id = medicer.Id })" class="btn btn-danger">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+
+</div>
+

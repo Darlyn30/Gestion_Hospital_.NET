@@ -1,0 +1,77 @@
+﻿@using PacientManagment.Core.Application.ViewModels.User;
+@model SaveUserViewModel
+
+@{
+    bool editMode = Model.Id == 0 ? false : true;
+    ViewData["Title"] = "Save User";
+}
+
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-dark text-light">
+                    <h4>@(editMode ? $"Editing User: {Model.Name}" : "Creating new User")</h4>
+                </div>
+                <div class="card-body">
+
+                    <form method="post" asp-controller="MaintUser" asp-action="@(editMode ? "Edit":"Create")">
+
+                        <div class="form-group">
+                            <label>First Name:</label>
+                            <input asp-for="Name" class="form-control" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label>LastName:</label>
+                            <input asp-for="LastName" class="form-control" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Email:</label>
+                            <input asp-for="Email" type="email" class="form-control" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Username:</label>
+                            <input asp-for="Username" class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <label>Password:</label>
+                            <input asp-for="Password" type="password" class="form-control" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Confirm Password:</label>
+                            <input asp-for="ConfirmPassword" type="password" class="form-control" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Phone Number:</label>
+                            <input asp-for="Phone" class="form-control" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Role:</label>
+                            <select asp-for="Role" class="form-control">
+                                <option value="Administrator">Admin</option>
+                                <option value="Assistant">Assistant</option>
+                            </select>
+                        </div>
+
+                        <input type="hidden" asp-for="Id" />
+
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <a asp-controller="MaintUser" asp-action="Index" class="btn btn-warning">Go back</a>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+

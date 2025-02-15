@@ -1,0 +1,29 @@
+﻿@using PacientManagment.Core.Application.ViewModels.User
+@model SaveUserViewModel
+@{
+    ViewData["Title"] = "Delete Serie";
+}
+
+<div class="row">
+
+    <div class="col-6 offset-3">
+        <div class="card">
+            <div class="card-header bg-danger text-light">
+                <h4>Are you sure to delete User: @Model.Name?</h4>
+            </div>
+            <div class="card-body">
+                @*Pending change asp-controller & asp-action*@
+                <form method="post" asp-controller="MaintUser" asp-action="DeleteUser">
+
+                    <input type="hidden" asp-for="Id" />
+
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                    <a asp-controller="MaintUser" asp-action="Index" class="btn btn-warning">Cancel</a>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</div>

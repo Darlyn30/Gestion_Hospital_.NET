@@ -1,0 +1,96 @@
+﻿@using Microsoft.AspNetCore.Http
+@using PacientManagment.Core.Application.ViewModels.User
+@using PacientManagment.Core.Application.Helpers
+@inject IHttpContextAccessor httpContextAccessor
+@{
+    var User = httpContextAccessor.HttpContext.Session.Get<UserViewModel>("user");
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PacientManagment</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PacientManagment.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+
+        @{
+            var controller = ViewContext.RouteData.Values["Controller"]?.ToString();
+            var action = ViewContext.RouteData.Values["Action"]?.ToString();
+        }
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Pacient Managment</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        @if(User != null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark @(controller == "Home" && action == "Index" ? "active fw-bold" : "")" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark @(controller == "MaintUser" && action == "Index" ? "active fw-bold" : "")" asp-area="" asp-controller="MaintUser" asp-action="Index">Maint. User</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark @(controller == "Medicer" && action == "Index" ? "active fw-bold" : "")" asp-area="" asp-controller="Medicer" asp-action="Index">Maint. Medicers</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark @(controller == "TestLab" && action == "Index" ? "active fw-bold" : "")" asp-area="" asp-controller="TestLab" asp-action="Index">Maint. Tests lab</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark @(controller == "Pacient" && action == "Index" ? "active fw-bold" : "")" asp-area="" asp-controller="Pacient" asp-action="Index">Maint. pacients</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark @(controller == "Date" && action == "Index" ? "active fw-bold" : "")" asp-area="" asp-controller="Date" asp-action="Index">Maint. Dates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark @(controller == "TestResult" && action == "Index" ? "active fw-bold" : "")" asp-area="" asp-controller="TestResult" asp-action="Index">
+                                    Maint.
+                                    Laboratory Test Results
+                                </a>
+                            </li>
+                            <li class="nav-item align-content-end">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="LogOut">Log Out</a>
+                            </li>
+                        }
+                        else 
+                        {
+                            @* <li class="nav-item align-content-end"> *@
+                            @*     <a class="nav-link text-dark fw-bold" asp-area="" asp-controller="User" asp-action="Register">Sign Up!</a> *@
+                            @* </li> *@
+                        }
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - PacientManagment - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

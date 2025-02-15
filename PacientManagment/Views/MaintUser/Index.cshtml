@@ -1,0 +1,45 @@
+﻿@using PacientManagment.Core.Application.ViewModels.User
+@model List<UserViewModel>
+
+<h2>User List</h2>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-6">
+            <form asp-controller="MaintUser" asp-action="Search" method="post" class="d-flex">
+                <input name="userName" class="form-control me-2" type="search" placeholder="Search by User Name..." aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Username</th>
+        <th>Phone Number</th>
+        <th>Role</th>
+        <th>Actions</th>
+    </tr>
+    <a asp-controller="MaintUser" asp-action="Create" class="btn btn-success">Create User</a>
+    @foreach (UserViewModel user in Model)
+    {
+        <tr>
+            <td>@user.Name</td>
+            <td>@user.LastName</td>
+            <td>@user.Email</td>
+            <td>@user.Username</td>
+            <td>@user.Phone</td>
+            <td>@user.Role</td>
+            <td>
+                <a href="@Url.Action("Edit", "MaintUser", new { id = user.Id })" class="btn btn-warning">Edit</a>
+                <a href="@Url.Action("Delete", "MaintUser", new { id = user.Id })" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
+
+

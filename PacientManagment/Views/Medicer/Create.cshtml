@@ -1,0 +1,91 @@
+﻿@using PacientManagment.Core.Application.ViewModels.Medicer;
+@model SaveMedicerViewModel
+
+@{
+    bool editMode = Model.Id == 0 ? false : true;
+    ViewData["Title"] = "Save medicer";
+}
+
+
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-dark text-light">
+                    <h4>@(editMode ? $"Editando el producto: {Model.Name}" : "Creando un nuevo producto")</h4>
+                </div>
+                <div class="card-body">
+
+                    @if (Model.Consulters == null || Model.Consulters.Count == 0)
+                    {
+                        <h4>No hay categorias creadas</h4>
+                        <a asp-controller="Medicer" asp-action="Index" class="btn btn-warning">Go Back</a>
+                    }
+                    else
+                    {
+                        <form method="post" enctype="multipart/form-data" asp-controller="Medicer" asp-action="@(editMode ? "Edit":"Create")">
+
+                            <div class="form-group">
+                                <label>Name:</label>
+                                <input asp-for="Name" class="form-control" required />
+                            </div>
+
+                            <div class="form-group">
+                                <label>LastName:</label>
+                                <input asp-for="LastName" class="form-control" required />
+                            </div>
+
+                            <div class="form-group">
+                                <label>Email:</label>
+                                <input asp-for="Email" type="email" class="form-control" required />
+                            </div>
+
+                            <div class="form-group">
+                                <label>Phone Number:</label>
+                                <input asp-for="Phone" class="form-control" required />
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="File" class="form-label">Profile Photo:</label>
+                                @if (editMode)
+                                {
+                                    <input asp-for="File" class="form-control" />
+                                }
+                                else
+                                {
+                                    <input required asp-for="File" class="form-control" />
+                                }
+
+                                <span asp-validation-for="File" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Personal ID:</label>
+                                <input asp-for="Cedula" class="form-control" required />
+                            </div>
+
+
+                            <div class="mb-3">
+                                <label asp-for="ConsulterId" class="form-label">Consultory: </label>
+                                <select asp-for="ConsulterId" asp-items="@(new SelectList(Model.Consulters,"Id","Name"))" class="form-select">
+                                    <option value="0">Seleccione una opcion</option>
+
+                                </select>
+                                <span asp-validation-for="ConsulterId" class="text-danger"></span>
+                            </div>
+
+                            <input type="hidden" asp-for="Id" />
+
+                            <button type="submit" class="btn btn-primary">Save</button>
+                            <a asp-controller="Medicer" asp-action="Index" class="btn btn-warning">Go back</a>
+                        </form>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+

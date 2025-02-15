@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacientManagment", "PacientManagment\PacientManagment.csproj", "{07C8DA20-89C8-451C-A5F6-777758931335}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{2C80F812-150B-457E-9F46-CF1D1ED01CC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{DB0A0FC4-D1B9-499E-B288-F9BB3764FBF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{34C6BB65-175A-4658-8F10-EF0DBBFD08B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F9D4781B-C0AF-44CC-9DF1-B247DF5CFCA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{C3EA33E6-3A1A-471C-A4BD-DBDF29D9D436}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacientManagment.Infrastructure.Persistence", "PacientManagment.Infrastructure.Persistence\PacientManagment.Infrastructure.Persistence.csproj", "{28A44641-958E-4F08-BB5D-FF398DB5DA53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacientManagment.Core.Application", "PacientManagment.Core.Application\PacientManagment.Core.Application.csproj", "{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacientManagment.Core.Domain", "PacientManagment.Core.Domain\PacientManagment.Core.Domain.csproj", "{BC17E690-7FF8-4143-BB53-759C3F08E9A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07C8DA20-89C8-451C-A5F6-777758931335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C8DA20-89C8-451C-A5F6-777758931335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C8DA20-89C8-451C-A5F6-777758931335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C8DA20-89C8-451C-A5F6-777758931335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A44641-958E-4F08-BB5D-FF398DB5DA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A44641-958E-4F08-BB5D-FF398DB5DA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A44641-958E-4F08-BB5D-FF398DB5DA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A44641-958E-4F08-BB5D-FF398DB5DA53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC17E690-7FF8-4143-BB53-759C3F08E9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC17E690-7FF8-4143-BB53-759C3F08E9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC17E690-7FF8-4143-BB53-759C3F08E9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC17E690-7FF8-4143-BB53-759C3F08E9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07C8DA20-89C8-451C-A5F6-777758931335} = {C3EA33E6-3A1A-471C-A4BD-DBDF29D9D436}
+		{DB0A0FC4-D1B9-499E-B288-F9BB3764FBF5} = {2C80F812-150B-457E-9F46-CF1D1ED01CC2}
+		{34C6BB65-175A-4658-8F10-EF0DBBFD08B9} = {2C80F812-150B-457E-9F46-CF1D1ED01CC2}
+		{F9D4781B-C0AF-44CC-9DF1-B247DF5CFCA5} = {2C80F812-150B-457E-9F46-CF1D1ED01CC2}
+		{C3EA33E6-3A1A-471C-A4BD-DBDF29D9D436} = {F9D4781B-C0AF-44CC-9DF1-B247DF5CFCA5}
+		{28A44641-958E-4F08-BB5D-FF398DB5DA53} = {34C6BB65-175A-4658-8F10-EF0DBBFD08B9}
+		{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4} = {DB0A0FC4-D1B9-499E-B288-F9BB3764FBF5}
+		{BC17E690-7FF8-4143-BB53-759C3F08E9A3} = {DB0A0FC4-D1B9-499E-B288-F9BB3764FBF5}
+	EndGlobalSection
+EndGlobal

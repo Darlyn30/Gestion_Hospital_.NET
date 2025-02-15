@@ -1,0 +1,565 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\programacion\\C#\\PacientManagment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment\\views\\medicer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|solutionrelative:pacientmanagment\\views\\medicer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment\\controllers\\medicercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|solutionrelative:pacientmanagment\\controllers\\medicercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment\\views\\medicer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|solutionrelative:pacientmanagment\\views\\medicer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment\\views\\medicer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|solutionrelative:pacientmanagment\\views\\medicer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.core.application\\services\\medicerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|solutionrelative:pacientmanagment.core.application\\services\\medicerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A44641-958E-4F08-BB5D-FF398DB5DA53}|PacientManagment.Infrastructure.Persistence\\PacientManagment.Infrastructure.Persistence.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.infrastructure.persistence\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28A44641-958E-4F08-BB5D-FF398DB5DA53}|PacientManagment.Infrastructure.Persistence\\PacientManagment.Infrastructure.Persistence.csproj|solutionrelative:pacientmanagment.infrastructure.persistence\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC17E690-7FF8-4143-BB53-759C3F08E9A3}|PacientManagment.Core.Domain\\PacientManagment.Core.Domain.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.core.domain\\entities\\medicer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC17E690-7FF8-4143-BB53-759C3F08E9A3}|PacientManagment.Core.Domain\\PacientManagment.Core.Domain.csproj|solutionrelative:pacientmanagment.core.domain\\entities\\medicer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.core.application\\viewmodels\\medicer\\savemedicerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|solutionrelative:pacientmanagment.core.application\\viewmodels\\medicer\\savemedicerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.core.application\\viewmodels\\medicer\\medicerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|solutionrelative:pacientmanagment.core.application\\viewmodels\\medicer\\medicerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC17E690-7FF8-4143-BB53-759C3F08E9A3}|PacientManagment.Core.Domain\\PacientManagment.Core.Domain.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.core.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC17E690-7FF8-4143-BB53-759C3F08E9A3}|PacientManagment.Core.Domain\\PacientManagment.Core.Domain.csproj|solutionrelative:pacientmanagment.core.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC17E690-7FF8-4143-BB53-759C3F08E9A3}|PacientManagment.Core.Domain\\PacientManagment.Core.Domain.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.core.domain\\entities\\consulter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC17E690-7FF8-4143-BB53-759C3F08E9A3}|PacientManagment.Core.Domain\\PacientManagment.Core.Domain.csproj|solutionrelative:pacientmanagment.core.domain\\entities\\consulter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment\\controllers\\maintusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|solutionrelative:pacientmanagment\\controllers\\maintusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.core.application\\interfaces\\services\\imedicerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|solutionrelative:pacientmanagment.core.application\\interfaces\\services\\imedicerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.core.application\\interfaces\\services\\iconsulterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|solutionrelative:pacientmanagment.core.application\\interfaces\\services\\iconsulterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A44641-958E-4F08-BB5D-FF398DB5DA53}|PacientManagment.Infrastructure.Persistence\\PacientManagment.Infrastructure.Persistence.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.infrastructure.persistence\\serviceregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28A44641-958E-4F08-BB5D-FF398DB5DA53}|PacientManagment.Infrastructure.Persistence\\PacientManagment.Infrastructure.Persistence.csproj|solutionrelative:pacientmanagment.infrastructure.persistence\\serviceregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.core.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|solutionrelative:pacientmanagment.core.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A44641-958E-4F08-BB5D-FF398DB5DA53}|PacientManagment.Infrastructure.Persistence\\PacientManagment.Infrastructure.Persistence.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.infrastructure.persistence\\contexts\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28A44641-958E-4F08-BB5D-FF398DB5DA53}|PacientManagment.Infrastructure.Persistence\\PacientManagment.Infrastructure.Persistence.csproj|solutionrelative:pacientmanagment.infrastructure.persistence\\contexts\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A44641-958E-4F08-BB5D-FF398DB5DA53}|PacientManagment.Infrastructure.Persistence\\PacientManagment.Infrastructure.Persistence.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.infrastructure.persistence\\repositories\\consulterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28A44641-958E-4F08-BB5D-FF398DB5DA53}|PacientManagment.Infrastructure.Persistence\\PacientManagment.Infrastructure.Persistence.csproj|solutionrelative:pacientmanagment.infrastructure.persistence\\repositories\\consulterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A44641-958E-4F08-BB5D-FF398DB5DA53}|PacientManagment.Infrastructure.Persistence\\PacientManagment.Infrastructure.Persistence.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.infrastructure.persistence\\repositories\\medicerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28A44641-958E-4F08-BB5D-FF398DB5DA53}|PacientManagment.Infrastructure.Persistence\\PacientManagment.Infrastructure.Persistence.csproj|solutionrelative:pacientmanagment.infrastructure.persistence\\repositories\\medicerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.core.application\\services\\consulterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|solutionrelative:pacientmanagment.core.application\\services\\consulterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.core.application\\viewmodels\\consulter\\consulterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|solutionrelative:pacientmanagment.core.application\\viewmodels\\consulter\\consulterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.core.application\\viewmodels\\consulter\\saveconsulterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|solutionrelative:pacientmanagment.core.application\\viewmodels\\consulter\\saveconsulterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.core.application\\serviceregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|solutionrelative:pacientmanagment.core.application\\serviceregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.core.application\\interfaces\\repositories\\iconsulterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|solutionrelative:pacientmanagment.core.application\\interfaces\\repositories\\iconsulterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.core.application\\interfaces\\repositories\\imedicerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|solutionrelative:pacientmanagment.core.application\\interfaces\\repositories\\imedicerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.core.application\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|solutionrelative:pacientmanagment.core.application\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.core.application\\services\\dateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4619C61-F0AC-4F4C-9F98-EDA3DE957EE4}|PacientManagment.Core.Application\\PacientManagment.Core.Application.csproj|solutionrelative:pacientmanagment.core.application\\services\\dateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|solutionrelative:pacientmanagment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|solutionrelative:pacientmanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment\\controllers\\consultercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|solutionrelative:pacientmanagment\\controllers\\consultercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment\\views\\consulter\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|solutionrelative:pacientmanagment\\views\\consulter\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment\\views\\maintuser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07C8DA20-89C8-451C-A5F6-777758931335}|PacientManagment\\PacientManagment.csproj|solutionrelative:pacientmanagment\\views\\maintuser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A44641-958E-4F08-BB5D-FF398DB5DA53}|PacientManagment.Infrastructure.Persistence\\PacientManagment.Infrastructure.Persistence.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.infrastructure.persistence\\migrations\\20250214070042_initialmigrationsetfulldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28A44641-958E-4F08-BB5D-FF398DB5DA53}|PacientManagment.Infrastructure.Persistence\\PacientManagment.Infrastructure.Persistence.csproj|solutionrelative:pacientmanagment.infrastructure.persistence\\migrations\\20250214070042_initialmigrationsetfulldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A44641-958E-4F08-BB5D-FF398DB5DA53}|PacientManagment.Infrastructure.Persistence\\PacientManagment.Infrastructure.Persistence.csproj|d:\\programacion\\c#\\pacientmanagment\\pacientmanagment.infrastructure.persistence\\migrations\\20250214105528_setpropnulleable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28A44641-958E-4F08-BB5D-FF398DB5DA53}|PacientManagment.Infrastructure.Persistence\\PacientManagment.Infrastructure.Persistence.csproj|solutionrelative:pacientmanagment.infrastructure.persistence\\migrations\\20250214105528_setpropnulleable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\Views\\Medicer\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PacientManagment\\Views\\Medicer\\Delete.cshtml",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\Views\\Medicer\\Delete.cshtml",
+              "RelativeToolTip": "PacientManagment\\Views\\Medicer\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T10:57:05.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250214105528_SetPropNulleable.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Infrastructure.Persistence\\Migrations\\20250214105528_SetPropNulleable.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Infrastructure.Persistence\\Migrations\\20250214105528_SetPropNulleable.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Infrastructure.Persistence\\Migrations\\20250214105528_SetPropNulleable.cs",
+              "RelativeToolTip": "PacientManagment.Infrastructure.Persistence\\Migrations\\20250214105528_SetPropNulleable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T10:55:29.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Consulter.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Domain\\Entities\\Consulter.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Core.Domain\\Entities\\Consulter.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Domain\\Entities\\Consulter.cs",
+              "RelativeToolTip": "PacientManagment.Core.Domain\\Entities\\Consulter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:36:59.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MedicerService.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\Services\\MedicerService.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Core.Application\\Services\\MedicerService.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\Services\\MedicerService.cs",
+              "RelativeToolTip": "PacientManagment.Core.Application\\Services\\MedicerService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAmwFQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T09:25:47.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MedicerController.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\Controllers\\MedicerController.cs",
+              "RelativeDocumentMoniker": "PacientManagment\\Controllers\\MedicerController.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\Controllers\\MedicerController.cs",
+              "RelativeToolTip": "PacientManagment\\Controllers\\MedicerController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowEkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:01:46.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\Views\\Medicer\\Create.cshtml",
+              "RelativeDocumentMoniker": "PacientManagment\\Views\\Medicer\\Create.cshtml",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\Views\\Medicer\\Create.cshtml",
+              "RelativeToolTip": "PacientManagment\\Views\\Medicer\\Create.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAwFMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T06:30:43.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SaveMedicerViewModel.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\ViewModels\\Medicer\\SaveMedicerViewModel.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Core.Application\\ViewModels\\Medicer\\SaveMedicerViewModel.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\ViewModels\\Medicer\\SaveMedicerViewModel.cs",
+              "RelativeToolTip": "PacientManagment.Core.Application\\ViewModels\\Medicer\\SaveMedicerViewModel.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:11:56.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\Views\\Medicer\\Index.cshtml",
+              "RelativeDocumentMoniker": "PacientManagment\\Views\\Medicer\\Index.cshtml",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\Views\\Medicer\\Index.cshtml",
+              "RelativeToolTip": "PacientManagment\\Views\\Medicer\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T06:34:51.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MaintUserController.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\Controllers\\MaintUserController.cs",
+              "RelativeDocumentMoniker": "PacientManagment\\Controllers\\MaintUserController.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\Controllers\\MaintUserController.cs",
+              "RelativeToolTip": "PacientManagment\\Controllers\\MaintUserController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowEMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:18:44.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Infrastructure.Persistence\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Infrastructure.Persistence\\Repositories\\GenericRepository.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Infrastructure.Persistence\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "PacientManagment.Infrastructure.Persistence\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:36:10.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Medicer.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Domain\\Entities\\Medicer.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Core.Domain\\Entities\\Medicer.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Domain\\Entities\\Medicer.cs",
+              "RelativeToolTip": "PacientManagment.Core.Domain\\Entities\\Medicer.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:05:07.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MedicerViewModel.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\ViewModels\\Medicer\\MedicerViewModel.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Core.Application\\ViewModels\\Medicer\\MedicerViewModel.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\ViewModels\\Medicer\\MedicerViewModel.cs",
+              "RelativeToolTip": "PacientManagment.Core.Application\\ViewModels\\Medicer\\MedicerViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:24:43.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Core.Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "PacientManagment.Core.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T10:16:40.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ServiceRegister.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Infrastructure.Persistence\\ServiceRegister.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Infrastructure.Persistence\\ServiceRegister.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Infrastructure.Persistence\\ServiceRegister.cs",
+              "RelativeToolTip": "PacientManagment.Infrastructure.Persistence\\ServiceRegister.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:16:30.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IMedicerService.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\Interfaces\\Services\\IMedicerService.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Core.Application\\Interfaces\\Services\\IMedicerService.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\Interfaces\\Services\\IMedicerService.cs",
+              "RelativeToolTip": "PacientManagment.Core.Application\\Interfaces\\Services\\IMedicerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T10:07:46.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IConsulterService.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\Interfaces\\Services\\IConsulterService.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Core.Application\\Interfaces\\Services\\IConsulterService.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\Interfaces\\Services\\IConsulterService.cs",
+              "RelativeToolTip": "PacientManagment.Core.Application\\Interfaces\\Services\\IConsulterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:20:15.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Core.Application\\Services\\UserService.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "PacientManagment.Core.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:02:39.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Infrastructure.Persistence\\Contexts\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Infrastructure.Persistence\\Contexts\\ApplicationContext.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Infrastructure.Persistence\\Contexts\\ApplicationContext.cs",
+              "RelativeToolTip": "PacientManagment.Infrastructure.Persistence\\Contexts\\ApplicationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:37:11.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ConsulterRepository.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Infrastructure.Persistence\\Repositories\\ConsulterRepository.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Infrastructure.Persistence\\Repositories\\ConsulterRepository.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Infrastructure.Persistence\\Repositories\\ConsulterRepository.cs",
+              "RelativeToolTip": "PacientManagment.Infrastructure.Persistence\\Repositories\\ConsulterRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:16:04.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ConsulterViewModel.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\ViewModels\\Consulter\\ConsulterViewModel.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Core.Application\\ViewModels\\Consulter\\ConsulterViewModel.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\ViewModels\\Consulter\\ConsulterViewModel.cs",
+              "RelativeToolTip": "PacientManagment.Core.Application\\ViewModels\\Consulter\\ConsulterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:38:34.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ServiceRegister.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\ServiceRegister.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Core.Application\\ServiceRegister.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\ServiceRegister.cs",
+              "RelativeToolTip": "PacientManagment.Core.Application\\ServiceRegister.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:19:30.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SaveConsulterViewModel.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\ViewModels\\Consulter\\SaveConsulterViewModel.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Core.Application\\ViewModels\\Consulter\\SaveConsulterViewModel.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\ViewModels\\Consulter\\SaveConsulterViewModel.cs",
+              "RelativeToolTip": "PacientManagment.Core.Application\\ViewModels\\Consulter\\SaveConsulterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:20:50.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ConsulterService.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\Services\\ConsulterService.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Core.Application\\Services\\ConsulterService.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\Services\\ConsulterService.cs",
+              "RelativeToolTip": "PacientManagment.Core.Application\\Services\\ConsulterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:21:49.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MedicerRepository.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Infrastructure.Persistence\\Repositories\\MedicerRepository.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Infrastructure.Persistence\\Repositories\\MedicerRepository.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Infrastructure.Persistence\\Repositories\\MedicerRepository.cs",
+              "RelativeToolTip": "PacientManagment.Infrastructure.Persistence\\Repositories\\MedicerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:17:02.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IConsulterRepository.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\Interfaces\\Repositories\\IConsulterRepository.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Core.Application\\Interfaces\\Repositories\\IConsulterRepository.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\Interfaces\\Repositories\\IConsulterRepository.cs",
+              "RelativeToolTip": "PacientManagment.Core.Application\\Interfaces\\Repositories\\IConsulterRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:15:42.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Core.Application\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "PacientManagment.Core.Application\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:17:27.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IMedicerRepository.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\Interfaces\\Repositories\\IMedicerRepository.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Core.Application\\Interfaces\\Repositories\\IMedicerRepository.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\Interfaces\\Repositories\\IMedicerRepository.cs",
+              "RelativeToolTip": "PacientManagment.Core.Application\\Interfaces\\Repositories\\IMedicerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:05:38.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250214070042_InitialMigrationSetFullDb.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Infrastructure.Persistence\\Migrations\\20250214070042_InitialMigrationSetFullDb.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Infrastructure.Persistence\\Migrations\\20250214070042_InitialMigrationSetFullDb.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Infrastructure.Persistence\\Migrations\\20250214070042_InitialMigrationSetFullDb.cs",
+              "RelativeToolTip": "PacientManagment.Infrastructure.Persistence\\Migrations\\20250214070042_InitialMigrationSetFullDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:00:42.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ConsulterController.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\Controllers\\ConsulterController.cs",
+              "RelativeDocumentMoniker": "PacientManagment\\Controllers\\ConsulterController.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\Controllers\\ConsulterController.cs",
+              "RelativeToolTip": "PacientManagment\\Controllers\\ConsulterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:55:38.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\Program.cs",
+              "RelativeDocumentMoniker": "PacientManagment\\Program.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\Program.cs",
+              "RelativeToolTip": "PacientManagment\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:59:36.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\appsettings.json",
+              "RelativeDocumentMoniker": "PacientManagment\\appsettings.json",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\appsettings.json",
+              "RelativeToolTip": "PacientManagment\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-14T06:59:38.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DateService.cs",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\Services\\DateService.cs",
+              "RelativeDocumentMoniker": "PacientManagment.Core.Application\\Services\\DateService.cs",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment.Core.Application\\Services\\DateService.cs",
+              "RelativeToolTip": "PacientManagment.Core.Application\\Services\\DateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:03:45.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\Views\\MaintUser\\Index.cshtml",
+              "RelativeDocumentMoniker": "PacientManagment\\Views\\MaintUser\\Index.cshtml",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\Views\\MaintUser\\Index.cshtml",
+              "RelativeToolTip": "PacientManagment\\Views\\MaintUser\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T06:35:03.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\Views\\Consulter\\Index.cshtml",
+              "RelativeDocumentMoniker": "PacientManagment\\Views\\Consulter\\Index.cshtml",
+              "ToolTip": "D:\\programacion\\C#\\PacientManagment\\PacientManagment\\Views\\Consulter\\Index.cshtml",
+              "RelativeToolTip": "PacientManagment\\Views\\Consulter\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T06:33:23.256Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

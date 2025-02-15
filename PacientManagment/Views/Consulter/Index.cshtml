@@ -1,0 +1,17 @@
+﻿@using PacientManagment.Core.Application.ViewModels.Consulter
+@model List<ConsulterViewModel>
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+    </tr>
+    <a asp-controller="MaintUser" asp-action="Create" class="btn btn-success">Create User</a>
+    @foreach (ConsulterViewModel consulter in Model)
+    {
+        <tr>
+            <td>@consulter.Name</td>
+            <td>@consulter.Description</td>
+            <small class="fw-bold fs-6">Quantity medicers: @consulter.Quantity</small>
+        </tr>
+    }
+</table>

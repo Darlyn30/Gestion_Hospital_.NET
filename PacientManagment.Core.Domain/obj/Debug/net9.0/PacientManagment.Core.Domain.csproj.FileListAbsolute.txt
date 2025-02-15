@@ -1,0 +1,11 @@
+D:\programacion\C#\PacientManagment\PacientManagment.Core.Domain\bin\Debug\net9.0\PacientManagment.Core.Domain.deps.json
+D:\programacion\C#\PacientManagment\PacientManagment.Core.Domain\bin\Debug\net9.0\PacientManagment.Core.Domain.dll
+D:\programacion\C#\PacientManagment\PacientManagment.Core.Domain\bin\Debug\net9.0\PacientManagment.Core.Domain.pdb
+D:\programacion\C#\PacientManagment\PacientManagment.Core.Domain\obj\Debug\net9.0\PacientManagment.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\programacion\C#\PacientManagment\PacientManagment.Core.Domain\obj\Debug\net9.0\PacientManagment.Core.Domain.AssemblyInfoInputs.cache
+D:\programacion\C#\PacientManagment\PacientManagment.Core.Domain\obj\Debug\net9.0\PacientManagment.Core.Domain.AssemblyInfo.cs
+D:\programacion\C#\PacientManagment\PacientManagment.Core.Domain\obj\Debug\net9.0\PacientManagment.Core.Domain.csproj.CoreCompileInputs.cache
+D:\programacion\C#\PacientManagment\PacientManagment.Core.Domain\obj\Debug\net9.0\PacientManagment.Core.Domain.dll
+D:\programacion\C#\PacientManagment\PacientManagment.Core.Domain\obj\Debug\net9.0\refint\PacientManagment.Core.Domain.dll
+D:\programacion\C#\PacientManagment\PacientManagment.Core.Domain\obj\Debug\net9.0\PacientManagment.Core.Domain.pdb
+D:\programacion\C#\PacientManagment\PacientManagment.Core.Domain\obj\Debug\net9.0\ref\PacientManagment.Core.Domain.dll
